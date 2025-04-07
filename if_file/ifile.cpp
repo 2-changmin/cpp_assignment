@@ -13,13 +13,13 @@ int main(){
         if(a + b < c || a + c < b || b + c < a)
             fout << num << " X" << endl;
         else if(a == b && b == c)
-            fout << num << " O Á¤»ï°¢Çü" << endl;
+            fout << num << " O ì •ì‚¼ê°í˜•" << endl;
         else if(a == b || a == c || b == c)
-            fout << num << " O ÀÌµîº¯»ï°¢Çü" << endl;
+            fout << num << " O ì´ë“±ë³€ì‚¼ê°í˜•" << endl;
         else
             fout << num << " O" << endl;
     }
-    cout << "¿Ï·á. Ãâ·ÂÆÄÀÏÀ» È®ÀÎÇØº¸¼¼¿ä." << endl;
+    cout << "ì™„ë£Œ. ì¶œë ¥íŒŒì¼ì„ í™•ì¸í•´ë³´ì„¸ìš”." << endl;
     fin.close();
     fout.close();
     
