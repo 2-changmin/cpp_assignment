@@ -26,7 +26,7 @@ void Person::setName(string name1){
     string newname = name1.substr(0,3);
     if(oldname == newname){
         name = name1;
-        cout << name << "(À¸)·Î º¯°æ ¿Ï·á" << endl;
+        cout << name << "(ìœ¼)ë¡œ ë³€ê²½ ì™„ë£Œ" << endl;
     }
     else{
         cout << "Family name change not allowed" << endl;
@@ -35,12 +35,12 @@ void Person::setName(string name1){
 }
 
 int main(){
-    Person person("°í±æµ¿");
-    cout << "¿ø·¡ ÀÌ¸§: " + person.getName() << endl;
-    person.setName("°î½Ä");
-    person.setName("°í±¸¸¶");
-    person.setName("¹Ú±æµ¿");
-    cout << "ÃÖÁ¾ ÀÌ¸§: " + person.getName() << endl;
+    Person person("ê³ ê¸¸ë™");
+    cout << "ì›ëž˜ ì´ë¦„: " + person.getName() << endl;
+    person.setName("ê³¡ì‹");
+    person.setName("ê³ êµ¬ë§ˆ");
+    person.setName("ë°•ê¸¸ë™");
+    cout << "ìµœì¢… ì´ë¦„: " + person.getName() << endl;
 
     return 0;
 }
